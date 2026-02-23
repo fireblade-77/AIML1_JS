@@ -1,44 +1,54 @@
 // console.log("Hello World");
 // document.write("Welcome");
 
-var num = 10;
-console.log(num);
-console.log(typeof(num));
+// var num = 10;
+// console.log(num);
+// console.log(typeof(num));
 
-num = false;
-console.log(num);
-console.log(typeof(num));
+// num = false;
+// console.log(num);
+// console.log(typeof(num));
 
-num = "Sanjeev soni";
-console.log(num);
-console.log(typeof(num));
+// num = "Sanjeev soni";
+// console.log(num);
+// console.log(typeof(num));
 
-num = null;
-console.log(num);
-console.log(typeof(num));
+// num = null;
+// console.log(num);
+// console.log(typeof(num));
 
-num = undefined;
-console.log(num);
-console.log(typeof(num));
+// num = undefined;
+// console.log(num);
+// console.log(typeof(num));
 
 
-const sym1 = Symbol(4)
-console.log(sym1);
+// const sym1 = Symbol(4)
+// console.log(sym1);
 
-const sym2 = Symbol(4);
-console.log(sym2);
+// const sym2 = Symbol(4);
+// console.log(sym2);
 
-if(sym1 === sym2){
-    console.log("true")
+// if(sym1 === sym2){
+//     console.log("true")
 
+// }
+
+// else{
+//     console.log("false")
+// }
+
+
+// var a = 100; var b = 200; var c = 300; var linebreak = "<br>";
+
+// document.write("a + b + c=");
+// result= a+b+c;
+
+
+const person = {
+    fname:"ajay",
+    lname:"singh",
+    age:25
+};
+for (let x in person) {
+    console.log("person details: " + x + ":" + person[x])
 }
-
-else{
-    console.log("false")
-}
-
-
-var a = 100; var b = 200; var c = 300; var linebreak = "<br>";
-
-document.write("a + b + c=");
-result= a+b+c;
